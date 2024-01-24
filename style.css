@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: darkslateblue;
+  color: white;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar {
+  background: rgb(19, 19, 48);
+  width: 100vw;
+  height: 30px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
