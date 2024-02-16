@@ -5,7 +5,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  background: darkslateblue;
+  background: rgb(30, 22, 79);
   color: white;
 }
 
@@ -14,6 +14,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
 }
 
 #navbar {
@@ -24,4 +27,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#gamesection{
+  width: 1000px;
+  height: 1000px;
+  border: 2px solid white;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  margin: 2px;
+  display: inline-block;
+  position: absolute;
 }
